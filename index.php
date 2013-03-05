@@ -11,7 +11,7 @@ class EchoLogger {
 $config = array(
     'access_token' => '28dd1d28fc1c4ba3a9302fe85fd2f6e2',
     'environment' => 'test',
-    'root' => '/home/cory/www/php-sample',
+    'root' => '/home/deploy/www/php-sample',
     'logger' => new EchoLogger()
 );
 Rollbar::init($config);
